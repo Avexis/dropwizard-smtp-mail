@@ -25,3 +25,6 @@ mailerFactory:
   fromName: NoReply
   fromAddress: noreply@example.com
 ```
+
+### License
+MIT
