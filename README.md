@@ -1,7 +1,7 @@
 # dropwizard-smtp-mail
 A dropwizard module for sending smtp mail
 
-### Configurations
+## Configurations
 
 Name | Type | Default | Other
 --- | --- | --- | ---
@@ -26,5 +26,5 @@ mailerFactory:
   fromAddress: noreply@example.com
 ```
 
-### License
+## License
 MIT
