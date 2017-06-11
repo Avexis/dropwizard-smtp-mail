@@ -15,7 +15,7 @@ fromAddress | String | | Default sender address if none specified
 
 
 ### Sample YML
-mailerFactory
+mailerFactory:
   host: localhost
   port: 25
   username: user
