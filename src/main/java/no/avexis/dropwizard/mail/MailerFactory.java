@@ -22,7 +22,7 @@ public class MailerFactory {
 
     public Mailer build(final Environment environment, final String name) {
         final Mailer mailer = new Mailer(host, port, username, password, transportStrategy);
-        environment.healthChecks().register(name, new MailerHeathCheck(mailer));
+        environment.healthChecks().register(name, new MailerHealthCheck(mailer));
         return mailer;
     }
 

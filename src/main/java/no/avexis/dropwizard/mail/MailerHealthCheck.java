@@ -3,11 +3,11 @@ package no.avexis.dropwizard.mail;
 import com.codahale.metrics.health.HealthCheck;
 import org.simplejavamail.mailer.Mailer;
 
-public class MailerHeathCheck extends HealthCheck {
+public class MailerHealthCheck extends HealthCheck {
 
     private Mailer mailer;
 
-    public MailerHeathCheck(final Mailer mailer) {
+    public MailerHealthCheck(final Mailer mailer) {
         this.mailer = mailer;
     }
 
