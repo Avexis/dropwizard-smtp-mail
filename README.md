@@ -15,6 +15,7 @@ fromAddress | String | | Default sender address if none specified
 
 
 ### Sample YML
+```yaml
 mailerFactory:
   host: localhost
   port: 25
@@ -23,4 +24,4 @@ mailerFactory:
   transportStrategy: SMTP_TLS
   fromName: NoReply
   fromAddress: noreply@example.com
-
+```
