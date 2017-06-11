@@ -1,7 +1,7 @@
 # dropwizard-smtp-mail
 A dropwizard module for sending smtp mail
 
-### Configurations
+## Configurations
 
 Name | Type | Default | Other
 --- | --- | --- | ---
@@ -15,6 +15,7 @@ fromAddress | String | | Default sender address if none specified
 
 
 ### Sample YML
+```yaml
 mailerFactory:
   host: localhost
   port: 25
@@ -23,4 +24,7 @@ mailerFactory:
   transportStrategy: SMTP_TLS
   fromName: NoReply
   fromAddress: noreply@example.com
+```
 
+## License
+MIT
